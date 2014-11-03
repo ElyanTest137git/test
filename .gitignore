@@ -1,0 +1,25 @@
+
+# this gitignore is not written in a rigorous manner
+# refer to _ToGit for a complete one
+# $ man gitignore to see how to write a gitignore file
+
+# note that gitignore in journal branch is a lot different from this one.
+
+/temp*
+/tmp*
+/test*
+/ig*
+.*.swp
+
+*.exe
+*.out
+*.o
+*.class
+
+
+# bad practice to prefix with dashes,
+# which might be confused with command line options
+/-*
+
+# except the following patterns:
+!/nig*
