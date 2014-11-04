@@ -8,7 +8,9 @@
 # .PHONY means the targe is actually not a output filename
 .PHONY: all
 all: sud.exe main.o sudoku.o
-	gcc main.o sudoku.o -o sud.exe
+	@echo make: \`sud.exe\'  is up to date.
+#	#--------------------------
+#	#.PHONY:  make all  ...done
 
 sud.exe: main.o sudoku.o
 	gcc main.o sudoku.o -o sud.exe

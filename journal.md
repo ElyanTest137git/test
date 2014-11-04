@@ -8,3 +8,8 @@
 	- relearn makefile format
  - to be continued:
  	- public api in sudoku.h
+
+08 20141104 02
+ - It took me more than 4 hours today =____=
+ - It is difficult to decide an appropriate name for indentifier ...
+ - I was wondering if this journal is re-doing the work in git commit?
